@@ -18,7 +18,7 @@ def assign_rooms(array)
     new_array.push("Hello, #{name}! You'll be assigned to room #{room_num}!")
     room_num += 1
   end
-  return nuarray
+  return new_array
 end
 
 # assign_rooms(people)

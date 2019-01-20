@@ -11,10 +11,6 @@ def batch_badge_creator(array)
   return new_array
 end
 
-# batch_badge_creator(people)
-
-
-
 def assign_rooms(array)
   nuarray = []
   counter = 1

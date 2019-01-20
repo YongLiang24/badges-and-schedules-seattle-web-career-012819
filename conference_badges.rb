@@ -4,11 +4,11 @@ def badge_maker(n)
 end
 
 def batch_badge_creator(array)
-  nuarray = []
+  new_array = []
   array.each do |name|
-    nuarray.push("Hello, my name is #{name}.")
+    new_array.push("Hello, my name is #{name}.")
   end
-  return nuarray
+  return new_array
 end
 
 # batch_badge_creator(people)
@@ -30,9 +30,9 @@ end
 def printer(array)
   batch_badge_creator(array).each do |id|
     puts id
-  end 
-  
-  assign_rooms(array).each do |id|
-    puts id 
   end
-end 
+
+  assign_rooms(array).each do |id|
+    puts id
+  end
+end
